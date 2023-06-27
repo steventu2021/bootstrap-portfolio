@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/pageContent.css">
+    <title>Flickr版型設計</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark sticky-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Flickr</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Prints</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Get Pro
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <header class="h250px bg-secondary-subtle d-flex align-items-end px-5 pb-3 bgi">
+        <div class="container d-flex align-items-end">
+            <div class="img-head h100px w100px ms-3 me-3">
+                <img class="rounded-circle img-fluid" src="./imgs/profile-pic.jpeg" alt="">
+            </div>
+            <div class="me-auto">
+                <div class="user-info-top d-flex">
+                    <div class="user-info-name me-3 text-light fs-4">Steven Tu</div>
+                    <!-- <div class="btn btn-light btn-md p-2 me-2">追蹤</div> -->
+                    <button type="button" class="btn btn-light me-2"
+                        style="--bs-btn-padding-y: .5rem; --bs-btn-padding-x: .7rem; --bs-btn-font-size: .9rem;">
+                        追蹤
+                    </button>
+                    <button type="button" class="btn btn-outline-light me-2"
+                        style="--bs-btn-padding-y: .5rem; --bs-btn-padding-x: .7rem; --bs-btn-font-size: .9rem;">
+                        ...
+                    </button>
+                </div>
+
+                <div class="user-info-bottom d-flex align-items-center mt-1 ">
+                    <div class="me-3 text-light"> 87.6K 位追蹤者</div>
+                    <div class="me-3 text-light">正在追蹤 2497 人</div>
+                </div>
+            </div>
+            <div class="num-photo me-3 text-light"> 20 張相片</div>
+            <div class="num-year me-3 text-light">自 2019 年加入</div>
+        </div>
+    </header>
+
+    <aside class="bg-white border-bottom sticky-top top50">
+        <div class="container">
+            <nav class="nav">
+                <a class="nav-link text-dark" aria-current="page" href="#">關於
+                </a>
+                <a class="nav-link text-dark active" href="#">所有相片</a>
+                <a class="nav-link text-dark" href="#">相簿</a>
+                <a class="nav-link text-dark" href="#">最愛</a>
+                <a class="nav-link text-dark" href="#">博覽館</a>
+                <a class="nav-link text-dark" href="#">群組</a>
+            </nav>
+        </div>
+    </aside>
+    <section>
+        <div class="container mt-3 mb-3">
+            <div class="row g-2">
+                <div class="col-12 col-sm-6 col-md-5">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img1.jpg); background-size: cover;">
+                        <a class="btn btn-secondary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                            aria-controls="offcanvasExample">
+                            More
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="h300px bg-secondary-subtle overflow-hidden"
+                        style="background-image: url(./imgs/img2.jpg); background-size: cover;">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img3.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img4.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img5.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-5">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img6.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img7.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img8.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img9.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img10.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img11.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-5">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img12.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img13.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-5">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img14.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img15.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img16.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img17.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-5">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img18.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img19.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img20.jpg); background-size: cover;"></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="h300px bg-secondary-subtle"
+                        style="background-image: url(./imgs/img21.jpg); background-size: cover;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-bg-dark">
+        <div class="container p-3">
+            <ul class="nav justify-content-between ">
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark" href="#">關於</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark" href="#">工作機會</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">開發人員</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">指南</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">服務中心</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">檢舉濫用</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">說明討論區</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">繁體中文</a>
+                </li>
+            </ul>
+        </div>
+        <div class="container p-3">
+            <ul class="nav ">
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark active" aria-current="page" href="#">隱私政策</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark" href="#">服務條款</a>
+                </li>
+                <li class="nav-item me-auto">
+                    <a class="nav-link text-bg-dark " href="#">Cookies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">
+                        <i class="fa-brands fa-facebook-f px-1" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-instagram px-1" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-twitter px-1" style="color: #ffffff;"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images,
+                lists, etc.
+            </div>
+            <div class="dropdown mt-3">
+                <a class="text-white text-decoration-none" href="./pageContent2.html">
+                    <button class="btn btn-secondary" type="button">
+                        點擊看幻燈片效果
+                </a>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

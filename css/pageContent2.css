@@ -1,0 +1,68 @@
+.h250px {
+  height: 250px;
+}
+
+.h100px {
+  height: 100px;
+}
+
+.h700px {
+  height: 700px;
+}
+
+.w700px {
+  width: 700px;
+}
+
+.h200px {
+  height: 200px;
+}
+
+.w100px {
+  width: 100px;
+}
+
+.h30px {
+  height: 30px;
+}
+
+.w30px {
+  width: 30px;
+}
+
+.bgi {
+  background-image: url(https://images.unsplash.com/photo-1479762937580-3b682a10a0d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80);
+  background-size: cover;
+  background-position: 0 -300px;
+}
+
+aside nav .nav-link.active {
+  border-bottom: 3px solid #1198ff;
+}
+
+section {
+  min-height: 300px;
+}
+
+.top70 {
+  top: 70px;
+}
+
+.pc-1 {
+  padding-top: 240px;
+  padding-bottom: 0px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+@media (min-width: 992px) {
+  .pc-1 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+}
+
+.b10px {
+  bottom: 10px;
+}/*# sourceMappingURL=pageContent2.css.map */

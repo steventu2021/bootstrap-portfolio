@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/pageContent2.css">
+    <title>幻燈片效果</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark sticky-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Flickr</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Prints</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Getpro
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <header class="h700px bg-black position-relative">
+        <div class="position-absolute start-0 top-0 z-2 pt-2 ps-2">
+            <a href="./index.html" class="text-decoration-none text-light">
+                <i class="fa-solid fa-left-long text-light"></i>
+                <span class="text-light"> 返回上一頁</span>
+            </a>
+        </div>
+        <div id="carouselExample" class="carousel slide w-100 h-100 pc-1">
+            <div class="carousel-indicators b10px">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0"
+                    class="position-relative active" aria-current="true" aria-label="Slide 1">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img1.jpg"
+                        alt="">
+                </button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
+                    aria-label="Slide 2">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img2.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
+                    aria-label="Slide 3">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img3.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="3"
+                    aria-label="Slide 4">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img4.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="4"
+                    aria-label="Slide 5">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img5.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="5"
+                    aria-label="Slide 6">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img6.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="6"
+                    aria-label="Slide 7">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img7.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="7"
+                    aria-label="Slide 8">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img8.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="8"
+                    aria-label="Slide 9">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img9.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="9"
+                    aria-label="Slide 10">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img10.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="10"
+                    aria-label="Slide 11">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img11.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="11"
+                    aria-label="Slide 12">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img12.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="12"
+                    aria-label="Slide 13">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img13.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="13"
+                    aria-label="Slide 14">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img14.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="14"
+                    aria-label="Slide 15">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img15.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="15"
+                    aria-label="Slide 16">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img16.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="16"
+                    aria-label="Slide 17">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img17.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="17"
+                    aria-label="Slide 18">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img18.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="18"
+                    aria-label="Slide 19">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img19.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="19"
+                    aria-label="Slide 20">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img20.jpg"
+                        alt=""></button>
+                <button class="position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide-to="20"
+                    aria-label="Slide 21">
+                    <img class="w30px h30px object-fit-cover position-absolute start-0 top-0" src="imgs/img21.jpg"
+                        alt=""></button>
+            </div>
+            <div class="carousel-inner h-100">
+                <div class="carousel-item active">
+                    <img src="./imgs/img1.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img2.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img3.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img4.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img5.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img6.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img7.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img8.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img9.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img10.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img11.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img12.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img13.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img14.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img15.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img16.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img17.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img18.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img19.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img20.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/img21.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <section></section>
+    <footer class="text-bg-dark">
+        <div class="container ">
+            <ul class="nav justify-content-between">
+
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark" href="#">關於</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark" href="#">工作機會</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">開發人員</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">指南</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">服務中心</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">檢舉濫用</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">說明討論區</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">繁體中文</a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <ul class="nav ">
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark active" aria-current="page" href="#">隱私政策</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark" href="#">服務條款</a>
+                </li>
+                <li class="nav-item me-auto">
+                    <a class="nav-link text-bg-dark " href="#">Cookies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-bg-dark ">
+                        <i class="fa-brands fa-facebook-f px-1" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-instagram px-1" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-twitter px-1" style="color: #ffffff;"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
